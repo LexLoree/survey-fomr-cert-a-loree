@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sunflower:wght@300&display=swap');
+</style>
+    <title>Model Intake Form</title>
+  </head>
+  <body>
+    <div class="form-wrapper">
+    <h1 id="title">Model Intake Form</h1>
+    <p id="description">Welcome to the family! We are so excited to build out your custom shoot. But first, fill out the form below so we can get to know you better. <p>
+    <form id="survey form">
+          <fieldset>
+      <div class="name">
+       <label for="name" class="question" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required /></label>
+      </div>
+      <div class="email">
+      <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" required /></label>
+      </div>
+      <div class="age">
+      <label for="age" id="age-label">Age: <input id="age" type="number" name="age" min="18" max="120" placeholder="Enter your age" required/></label>
+      </div>
+    </fieldset>
+    <div class="dropdown">
+  <label for="dropdown" id="experience-label">Have you modeled before?
+          <select id="dropdown" class="question">
+            <option value="">Select one...</option>
+            <option value="1">Only when my mom asks me to...</option>
+            <option value="2">Professional selfie taker here!!</option>
+            <option value="3">Girl, this ain’t my first rodeo.</option>
+    </select>    
+  </label>
+    </div>
+  <fieldset>
+  <label for="checkboxes" id="checkbox-label">What's your dream photo aesthetic?</label>
+  <label><input id="retro vibes" type="checkbox" class="aesthetic" value="Retro Viiiiibes" checked> <label for="retro vibes">Retro Viiiiibes</label>
+    <label><input id="dark&moody" type="checkbox" class="aesthetic" value="Dark & Moody"> <label for="dark&moody">Dark & Moody</label>
+      <label><input id="futuristic baddie" type="checkbox" class="aesthetic" value="Futuristic Baddie"> <label for="futuristic baddie">Futuristic Baddie</label>
+        <label><input id="light&whimsical" type="checkbox" class="aesthetic" value="Light & Whimsical"> <label for="light&whimsical">Light & Whimsical</label>
+         <label><input id="artsy girl" type="checkbox" class="aesthetic" value="Artsy Girl"> <label for="artsy girl">Artsy Girl</label> 
+           <label><input id="sultry&romantic" type="checkbox" class="aesthetic" value="SultryRomantic"> <label for="sultry&romantic">Sultry & Romantic</label>
+  </fieldset>
+<fieldset>
+  <legend class="consent">Do you consent to photo release? (required)<legend>
+    <label for="I consent"><input id="I consent" type="radio" class="consent" name="consent form" checked/>I consent</label>
+    <label for="I do not consent"><input id="I do not consent" type="radio" class="consent" name="consent form"/>I do not consent</label>
+    </fieldset>
+    <label for="comment section" class="question" id="question">Questions or concerns? </label>
+      <textarea id="comment section" name="comment section" rows="3" cols="30" placeholder="Let us know here!"></textarea>
+    </label>
+ <input type="submit" value="Submit"/>
+  </div>
+           </form>
+    </body>
